@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+color: #fff;
+}
+.bg-white{
+    background-color: #fff;
+}
+
+.text-orangered {
+    color: rgba(255, 0, 0, 1);
+}
+
+.align-center
+{
+    align-items: center;
+}
+.section-12 {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+.header {
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0, 4000000596045px;
+}
+.body-a-12 {
+    background-image: url(../css/img/sofaset-12.png);
+    height: 447px;
+    width: 1140px; 
+    line-height: 30px;
+    position: relative;
+    border-radius: 2rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    align-items: center;
+}
+
+.body-12 {
+    background: rgba(255, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 2rem;
+    flex-direction: column;
+}
+
+.heading-12 {
+    padding-top: 70px;
+}
+
+.content-12 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 25px;
+
+}
+
+.btn-12 {
+    height: 60px;
+    width: 150px;
+    border-radius: 40px;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-top: 60px;
+    margin-left: 500px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    margin-top: 15px
+}
